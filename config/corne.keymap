@@ -38,7 +38,7 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
-                        display-name = "Base";
+                        display-name = "HR Base";
                         bindings = <
 // -----------------------left--------------------------------------------------------------------right---------------
 // |       Q       |       W       |       E       |       R       |       T       |xxxxxxxxxxx|       Y       |       U       |       I       |       O       |       P       |
