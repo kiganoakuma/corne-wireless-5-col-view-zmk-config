@@ -35,8 +35,8 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
-            display-name = "HR Base";
+        Base {
+            display-name = "Base";
             bindings = <
   &kp Q       &kp W        &kp E       &kp R         &kp T        &kp Y    &kp U         &kp I       &kp O        &kp P
   &hm LGUI A  &hm LCTRL S  &hm LALT D  &hm LSHIFT F  &kp G        &kp H    &hm RSHIFT J  &hm RALT K  &hm LCTRL L  &hm LGUI SQT
@@ -45,20 +45,15 @@
             >;
         };
 
-                        lower_layer {
-        // -----------------------------------------------------------------------------------------
-        // | !     |  @  |  #  |  $  |  %  |     |  ^  |  &  |  *  |  (  |  )  |
-        // | BT1   | BT2 | BT3 | BT4 | BT5 |     | LFT | DWN |  UP | RGT |     |
-        // | BTCLR |     |     |     |     |     |     |     |     |     |     |
-        //               | GUI |     | SPC |     | ENT | ESC | TAB |
-                                display-name = "Lower";
-                                bindings = <
-           &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT        &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR
-           &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4     &kp LEFT  &kp DOWN  &kp UP          &kp RIGHT &trans 
-           &bt BT_CLR   &trans       &trans       &trans       &trans           &trans    &trans    &trans          &trans    &trans 
-                                     &kp LGUI     &trans       &kp SPACE        AS(RET)   &kp ESC   &kp TAB
-                                >;
-                        };
+        TenKey {
+            bindings = <
+  &trans          &kp N7                 &kp N8        &kp N9                   &trans       &trans  &trans    &kp UP_ARROW  &trans     &trans
+  &hm LEFT_GUI A  &hm LEFT_ALT NUMBER_4  &hm LCTRL N5  &hm LEFT_SHIFT NUMBER_6  &kp BSPC     &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans
+  &trans          &kp N1                 &kp N2        &kp N3                   &kp TAB      &trans  &trans    &trans        &trans     &trans
+                                         &kp N0        &trans                   &kp ENTER    &trans  &trans    &trans
+            >;
+        };
+
         //                raise_layer {
         // -----------------------------------------------------------------------------------------
         // | 1! |  2@ |  3# |  4$ |  5% |     |  6^ |  7& |  8* |  9(  |  0)  |
