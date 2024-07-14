@@ -87,7 +87,7 @@
   &kp Q       &kp W           &kp E        &kp R         &kp T        &kp Y    &kp U         &kp I                 &kp O            &kp P
   &hm LGUI A  &hm LEFT_ALT S  &hm LCTRL D  &hm LSHIFT F  &kp G        &kp H    &hm RSHIFT J  &hm RCTRL K           &hm RIGHT_ALT L  &hm LGUI SQT
   &kp Z       &kp X           &kp C        &kp V         &kp B        &kp N    &kp M         &kp COMMA             &kp PERIOD       &kp SLASH
-                              &kp LGUI     &to 0         &kp SPACE    &kp RET  &mo 2         &ht DELETE BACKSPACE
+                              &kp TAB      &to 0         &kp SPACE    &kp RET  &mo 2         &ht DELETE BACKSPACE
             >;
         };
 
@@ -126,10 +126,10 @@
 
         FPS {
             bindings = <
-  &trans  &trans  &kp W   &kp E   &kp R        &trans  &trans  &trans  &trans  &trans
-  &trans  &kp A   &kp S   &kp D   &trans       &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &kp SPACE    &trans  &trans  &trans
+  &kp Q           &none   &kp W   &kp E   &kp R        &trans  &trans  &trans  &trans  &trans
+  &kp LEFT_SHIFT  &kp A   &kp S   &kp D   &trans       &trans  &trans  &trans  &trans  &trans
+  &trans          &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans
+                          &trans  &trans  &kp SPACE    &trans  &trans  &trans
             >;
 
             label = "FPS";
