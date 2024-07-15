@@ -50,31 +50,31 @@
         LTenkey {
             bindings = <&tog 1>;
             key-positions = <31 21>;
-            layers = <0 1 3 4 5>;
+            layers = <0 1 3 4 5 2 6>;
         };
 
         LFkeys {
-            bindings = <&to 3>;
+            bindings = <&tog 3>;
             key-positions = <31 23>;
-            layers = <0 1 3 4 5>;
+            layers = <0 1 3 4 5 2 6>;
         };
 
         BT {
-            bindings = <&to 4>;
+            bindings = <&tog 4>;
             key-positions = <31 11>;
-            layers = <0 3 1 4 5>;
+            layers = <0 3 1 4 5 2 6>;
         };
 
         FPS {
-            bindings = <&to 5>;
+            bindings = <&tog 5>;
             key-positions = <31 12>;
-            layers = <0 3 1 4 5>;
+            layers = <0 3 1 4 5 2 6>;
         };
 
         RArrows {
             bindings = <&tog 2>;
             key-positions = <31 22>;
-            layers = <0 3 4 5 2>;
+            layers = <0 3 4 5 2 1 6>;
         };
     };
 
@@ -145,24 +145,15 @@
             label = "FPS";
         };
 
-        layer_6 {
+        NumPunc {
             bindings = <
   &kp N1     &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7                &kp N8          &kp N9              &kp N0
   &kp GRAVE  &trans  &trans  &trans  &trans    &trans  &mt RIGHT_SHIFT SEMI  &mt RCTRL LBKT  &mt RIGHT_ALT RBKT  &mt RIGHT_GUI BSLH
   &trans     &trans  &trans  &trans  &trans    &trans  &trans                &trans          &trans              &trans
                      &trans  &trans  &trans    &trans  &trans                &trans
             >;
-        };
 
-        Layers {
-            bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &tog 1  &tog 2  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-
-            label = "Layers";
+            label = "NumPunc";
         };
 
         //                raise_layer {
