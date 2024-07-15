@@ -48,32 +48,32 @@
         compatible = "zmk,combos";
 
         LTenkey {
-            bindings = <&to 1>;
+            bindings = <&tog 1>;
             key-positions = <31 21>;
             layers = <0 1 3 4 5>;
         };
 
         LFkeys {
             bindings = <&to 3>;
-            key-positions = <31 22>;
+            key-positions = <31 23>;
             layers = <0 1 3 4 5>;
         };
 
         BT {
             bindings = <&to 4>;
-            key-positions = <31 23>;
+            key-positions = <31 11>;
             layers = <0 3 1 4 5>;
         };
 
         FPS {
             bindings = <&to 5>;
-            key-positions = <31 11>;
+            key-positions = <31 12>;
             layers = <0 3 1 4 5>;
         };
 
         RArrows {
             bindings = <&tog 2>;
-            key-positions = <31 12>;
+            key-positions = <31 22>;
             layers = <0 3 4 5 2>;
         };
     };
