@@ -47,34 +47,34 @@
     combos {
         compatible = "zmk,combos";
 
-        Layer1 {
+        LTenkey {
             bindings = <&to 1>;
             key-positions = <31 21>;
-            layers = <0 1 2 3 4>;
+            layers = <0 1 3 4 5>;
         };
 
-        Layer2 {
-            bindings = <&to 2>;
-            key-positions = <31 22>;
-            layers = <0 1 2 3 4>;
-        };
-
-        Layer3 {
+        LFkeys {
             bindings = <&to 3>;
-            key-positions = <31 23>;
-            layers = <0 2 1 3 4>;
+            key-positions = <31 22>;
+            layers = <0 1 3 4 5>;
         };
 
-        Layer4 {
+        BT {
             bindings = <&to 4>;
-            key-positions = <31 11>;
-            layers = <0 2 1 3 4>;
+            key-positions = <31 23>;
+            layers = <0 3 1 4 5>;
         };
 
-        Layer5 {
+        FPS {
             bindings = <&to 5>;
+            key-positions = <31 11>;
+            layers = <0 3 1 4 5>;
+        };
+
+        RArrows {
+            bindings = <&tog 2>;
             key-positions = <31 12>;
-            layers = <0 2 3 4 5>;
+            layers = <0 3 4 5 2>;
         };
     };
 
@@ -87,19 +87,29 @@
   &kp Q       &kp W           &kp E        &kp R         &kp T        &kp Y    &kp U         &kp I                 &kp O            &kp P
   &hm LGUI A  &hm LEFT_ALT S  &hm LCTRL D  &hm LSHIFT F  &kp G        &kp H    &hm RSHIFT J  &hm RCTRL K           &hm RIGHT_ALT L  &hm LGUI SQT
   &kp Z       &kp X           &kp C        &kp V         &kp B        &kp N    &kp M         &kp COMMA             &kp PERIOD       &kp SLASH
-                              &kp TAB      &to 0         &kp SPACE    &kp RET  &mo 2         &ht DELETE BACKSPACE
+                              &kp TAB      &to 0         &kp SPACE    &kp RET  &mo 3         &ht DELETE BACKSPACE
             >;
         };
 
         LTenKey {
             bindings = <
-  &trans  &kp N7  &kp N8  &kp N9  &ht MINUS PLUS        &kp PAGE_UP    &trans           &kp UP_ARROW       &trans     &trans
-  &trans  &kp N4  &kp N5  &kp N6  &ht KP_DIVIDE STAR    &kp PAGE_DOWN  &kp LEFT         &kp DOWN           &kp RIGHT  &trans
-  &trans  &kp N1  &kp N2  &kp N3  &kp TAB               &trans         &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RALT   &kp RGUI
-                  &kp N0  &trans  &kp ENTER             &trans         &trans           &trans
+  &trans  &kp N7  &kp N8  &kp N9  &ht MINUS PLUS        &trans  &trans  &trans  &trans  &trans
+  &trans  &kp N4  &kp N5  &kp N6  &ht KP_DIVIDE STAR    &trans  &trans  &trans  &trans  &trans
+  &trans  &kp N1  &kp N2  &kp N3  &kp TAB               &trans  &trans  &trans  &trans  &trans
+                  &kp N0  &trans  &kp ENTER             &trans  &trans  &trans
             >;
 
             label = "LTenKey";
+        };
+
+        RArrows {
+            label = "RArrows";
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &kp PAGE_UP    &kp HOME         &kp UP_ARROW       &kp END    &trans
+  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &kp LEFT         &kp DOWN           &kp RIGHT  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans         &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RALT   &kp RGUI
+                  &trans  &trans  &trans    &trans         &trans           &trans
+            >;
         };
 
         Function {
@@ -135,13 +145,12 @@
             label = "FPS";
         };
 
-        RArrows {
-            label = "RArrows";
+        layer_6 {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &kp PAGE_UP    &kp HOME         &kp UP_ARROW       &kp END    &trans
-  &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &kp LEFT         &kp DOWN           &kp RIGHT  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans         &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RALT   &kp RGUI
-                  &trans  &trans  &trans    &trans         &trans           &trans
+  &kp N1     &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7                &kp N8          &kp N9              &kp N0
+  &kp GRAVE  &trans  &trans  &trans  &trans    &trans  &mt RIGHT_SHIFT SEMI  &mt RCTRL LBKT  &mt RIGHT_ALT RBKT  &mt RIGHT_GUI BSLH
+  &trans     &trans  &trans  &trans  &trans    &trans  &trans                &trans          &trans              &trans
+                     &trans  &trans  &trans    &trans  &trans                &trans
             >;
         };
 
