@@ -147,10 +147,10 @@
 
         NumPunc {
             bindings = <
-  &kp N1     &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7                &kp N8          &kp N9              &kp N0
-  &kp GRAVE  &trans  &trans  &trans  &trans    &trans  &mt RIGHT_SHIFT SEMI  &mt RCTRL LBKT  &mt RIGHT_ALT RBKT  &mt RIGHT_GUI BSLH
-  &trans     &trans  &trans  &trans  &trans    &trans  &trans                &trans          &trans              &trans
-                     &trans  &trans  &trans    &trans  &trans                &trans
+  &kp N1     &kp N2             &kp N3           &kp N4                &kp N5    &kp N6  &kp N7                &kp N8          &kp N9              &kp N0
+  &kp GRAVE  &mt LEFT_ALT APOS  &mt LCTRL MINUS  &mt LEFT_SHIFT EQUAL  &trans    &trans  &mt RIGHT_SHIFT SEMI  &mt RCTRL LBKT  &mt RIGHT_ALT RBKT  &mt RIGHT_GUI BSLH
+  &trans     &trans             &trans           &trans                &trans    &trans  &trans                &trans          &trans              &trans
+                                &trans           &trans                &trans    &trans  &trans                &trans
             >;
 
             label = "NumPunc";
