@@ -43,6 +43,7 @@
         Layer1 {
             bindings = <&tog 1>;
             key-positions = <31 21>;
+            timeout-ms = <50>;
         };
 
         Layer2 {
