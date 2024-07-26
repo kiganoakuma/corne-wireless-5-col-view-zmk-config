@@ -50,31 +50,37 @@
         LTenkey {
             bindings = <&tog 1>;
             key-positions = <31 21>;
-            layers = <0 1 3 4 5 2 6>;
+            layers = <0 1 3 4 5 2 6 7>;
         };
 
         LFkeys {
             bindings = <&tog 3>;
             key-positions = <31 23>;
-            layers = <0 1 3 4 5 2 6>;
+            layers = <0 1 3 4 5 2 6 7>;
         };
 
         BT {
             bindings = <&tog 4>;
-            key-positions = <31 11>;
-            layers = <0 3 1 4 5 2 6>;
+            key-positions = <31 3>;
+            layers = <0 3 1 4 5 2 6 7>;
         };
 
         FPS {
             bindings = <&tog 5>;
             key-positions = <31 12>;
-            layers = <0 3 1 4 5 2 6>;
+            layers = <0 3 1 4 5 2 6 7>;
         };
 
         RArrows {
             bindings = <&tog 2>;
             key-positions = <31 22>;
-            layers = <0 3 4 5 2 1 6>;
+            layers = <0 3 4 5 2 1 6 7>;
+        };
+
+        Lightroom {
+            bindings = <&tog 7>;
+            key-positions = <31 1>;
+            layers = <0 3 4 5 2 1 6 7>;
         };
     };
 
@@ -154,6 +160,15 @@
             >;
 
             label = "NumPunc";
+        };
+
+        Lightroom {
+            bindings = <
+  &trans  &trans    &kp UP    &kp X      &kp P     &trans  &trans  &trans  &trans  &trans
+  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans    &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans
+                    &trans    &trans     &trans    &trans  &trans  &trans
+            >;
         };
 
         //                raise_layer {
