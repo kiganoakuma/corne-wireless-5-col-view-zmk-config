@@ -99,7 +99,7 @@
             >;
         };
 
-        LTenKey {
+        LTenKey_1 {
             bindings = <
   &trans              &kp N7  &kp N8  &kp N9  &ht200 MINUS PLUS        &trans  &trans  &trans  &trans  &trans
   &ht200 LC(V) LC(C)  &kp N4  &kp N5  &kp N6  &ht200 KP_DIVIDE STAR    &trans  &trans  &trans  &trans  &trans
@@ -107,11 +107,11 @@
                               &kp N0  &trans  &kp ENTER                &trans  &trans  &trans
             >;
 
-            label = "LTenKey";
+            label = "LTenKey_1";
         };
 
-        RArrows {
-            label = "RArrows";
+        RArrows_2 {
+            label = "RArrows_2";
             bindings = <
   &trans  &trans  &trans  &trans  &trans    &kp PAGE_UP    &kp HOME         &kp UP_ARROW       &kp END    &trans
   &trans  &trans  &trans  &trans  &trans    &kp PAGE_DOWN  &kp LEFT         &kp DOWN           &kp RIGHT  &trans
@@ -120,7 +120,7 @@
             >;
         };
 
-        Function {
+        Function_3 {
             bindings = <
   &trans  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans
   &trans  &kp F4  &kp F5  &kp F6  &kp F11    &trans  &trans  &trans  &trans  &trans
@@ -128,10 +128,10 @@
                   &trans  &trans  &trans     &trans  &trans  &trans
             >;
 
-            label = "Function";
+            label = "Function_3";
         };
 
-        NumPunc {
+        NumPunc_4 {
             bindings = <
   &kp N1     &kp N2                &kp N3              &kp N4                   &kp N5    &kp N6  &kp N7                   &kp N8             &kp N9                 &kp N0
   &kp GRAVE  &ht200 LEFT_ALT APOS  &ht200 LCTRL MINUS  &ht200 LEFT_SHIFT EQUAL  &trans    &trans  &ht200 RIGHT_SHIFT SEMI  &ht200 RCTRL LBKT  &ht200 RIGHT_ALT RBKT  &ht200 RIGHT_GUI BSLH
@@ -139,28 +139,32 @@
                                    &trans              &trans                   &trans    &trans  &trans                   &trans
             >;
 
-            label = "NumPunc";
+            label = "NumPunc_4";
         };
 
-        layer_8 {
+        Layer_5 {
             bindings = <
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
                   &trans  &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "Layer_5";
         };
 
-        layer_9 {
+        Layer_6 {
             bindings = <
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
                   &trans  &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "Layer_6";
         };
 
-        FPS {
+        FPS_7 {
             bindings = <
   &kp Q           &none   &kp W   &kp E   &kp R        &trans  &trans  &trans  &trans  &trans
   &kp LEFT_SHIFT  &kp A   &kp S   &kp D   &trans       &trans  &trans  &trans  &trans  &trans
@@ -168,19 +172,21 @@
                           &trans  &trans  &kp SPACE    &trans  &trans  &trans
             >;
 
-            label = "FPS";
+            label = "FPS_7";
         };
 
-        Lightroom {
+        Lightroom_8 {
             bindings = <
   &trans  &trans    &kp UP    &kp X      &kp P     &trans  &trans  &trans  &trans  &trans
   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans
   &trans  &trans    &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans
                     &trans    &trans     &trans    &trans  &trans  &trans
             >;
+
+            label = "Lightroom_8";
         };
 
-        Bluetooth {
+        Bluetooth_9 {
             bindings = <
   &trans  &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans
   &trans  &bt BT_SEL 3  &bt BT_SEL 4  &bootloader   &trans        &trans  &trans  &trans  &trans  &trans
@@ -188,7 +194,7 @@
                         &trans        &trans        &trans        &trans  &trans  &trans
             >;
 
-            label = "Bluetooth";
+            label = "Bluetooth_9";
         };
     };
 };
