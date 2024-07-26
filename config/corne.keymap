@@ -84,6 +84,12 @@
             key-positions = <31 1>;
             layers = <0 3 4 5 2 1 6 7>;
         };
+
+        NumPunc {
+            bindings = <&tog 6>;
+            key-positions = <31 13>;
+            layers = <0 3 4 5 2 1 6 7>;
+        };
     };
 
     keymap {
