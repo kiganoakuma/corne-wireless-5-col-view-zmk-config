@@ -56,22 +56,22 @@
         };
 
         BT {
-            bindings = <&tog 4>;
+            bindings = <&tog 9>;
             key-positions = <31 3>;
         };
 
         FPS {
-            bindings = <&tog 5>;
+            bindings = <&tog 8>;
             key-positions = <31 12>;
         };
 
         Lightroom {
-            bindings = <&tog 7>;
+            bindings = <&tog 9>;
             key-positions = <31 1>;
         };
 
         NumPunc {
-            bindings = <&tog 6>;
+            bindings = <&tog 4>;
             key-positions = <31 13>;
         };
     };
@@ -121,15 +121,33 @@
             label = "Function";
         };
 
-        Bluetooth {
+        NumPunc {
             bindings = <
-  &trans  &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans
-  &trans  &bt BT_SEL 3  &bt BT_SEL 4  &bootloader   &trans        &trans  &trans  &trans  &trans  &trans
-  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &trans  &trans  &trans  &trans  &trans
-                        &trans        &trans        &trans        &trans  &trans  &trans
+  &kp N1     &kp N2                &kp N3              &kp N4                   &kp N5    &kp N6  &kp N7                   &kp N8             &kp N9                 &kp N0
+  &kp GRAVE  &ht200 LEFT_ALT APOS  &ht200 LCTRL MINUS  &ht200 LEFT_SHIFT EQUAL  &trans    &trans  &ht200 RIGHT_SHIFT SEMI  &ht200 RCTRL LBKT  &ht200 RIGHT_ALT RBKT  &ht200 RIGHT_GUI BSLH
+  &trans     &trans                &trans              &trans                   &trans    &trans  &trans                   &trans             &trans                 &trans
+                                   &trans              &trans                   &trans    &trans  &trans                   &trans
             >;
 
-            label = "Bluetooth";
+            label = "NumPunc";
+        };
+
+        layer_8 {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        layer_9 {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
+            >;
         };
 
         FPS {
@@ -143,17 +161,6 @@
             label = "FPS";
         };
 
-        NumPunc {
-            bindings = <
-  &kp N1     &kp N2                &kp N3              &kp N4                   &kp N5    &kp N6  &kp N7                   &kp N8             &kp N9                 &kp N0
-  &kp GRAVE  &ht200 LEFT_ALT APOS  &ht200 LCTRL MINUS  &ht200 LEFT_SHIFT EQUAL  &trans    &trans  &ht200 RIGHT_SHIFT SEMI  &ht200 RCTRL LBKT  &ht200 RIGHT_ALT RBKT  &ht200 RIGHT_GUI BSLH
-  &trans     &trans                &trans              &trans                   &trans    &trans  &trans                   &trans             &trans                 &trans
-                                   &trans              &trans                   &trans    &trans  &trans                   &trans
-            >;
-
-            label = "NumPunc";
-        };
-
         Lightroom {
             bindings = <
   &trans  &trans    &kp UP    &kp X      &kp P     &trans  &trans  &trans  &trans  &trans
@@ -161,6 +168,17 @@
   &trans  &trans    &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans
                     &trans    &trans     &trans    &trans  &trans  &trans
             >;
+        };
+
+        Bluetooth {
+            bindings = <
+  &trans  &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans
+  &trans  &bt BT_SEL 3  &bt BT_SEL 4  &bootloader   &trans        &trans  &trans  &trans  &trans  &trans
+  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &trans  &trans  &trans  &trans  &trans
+                        &trans        &trans        &trans        &trans  &trans  &trans
+            >;
+
+            label = "Bluetooth";
         };
     };
 };
