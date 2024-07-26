@@ -49,41 +49,49 @@
         Layer2 {
             bindings = <&tog 2>;
             key-positions = <31 22>;
+            timeout-ms = <50>;
         };
 
         Layer3 {
             bindings = <&tog 3>;
             key-positions = <31 23>;
+            timeout-ms = <50>;
         };
 
         Layer4 {
             bindings = <&tog 4>;
             key-positions = <31 11>;
+            timeout-ms = <50>;
         };
 
         Layer5 {
             bindings = <&tog 5>;
             key-positions = <31 12>;
+            timeout-ms = <50>;
         };
 
         Layer6 {
             bindings = <&tog 6>;
             key-positions = <31 13>;
+            timeout-ms = <50>;
         };
 
         Layer7 {
             bindings = <&tog 7>;
             key-positions = <31 1>;
+            timeout-ms = <50>;
         };
 
         Layer8 {
             bindings = <&tog 8>;
             key-positions = <31 2>;
+            timeout-ms = <50>;
         };
 
         Layer9 {
             bindings = <&tog 9>;
             key-positions = <31 3>;
+            timeout-ms = <50>;
         };
     };
 
