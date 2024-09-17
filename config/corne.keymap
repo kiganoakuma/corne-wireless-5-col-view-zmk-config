@@ -13,7 +13,7 @@
 #define AS(keycode) &as LS(keycode) keycode
 
 / {
-    chosen { zmk,physical-layout = <&foostan_corne_5col_layout>; };
+    chosen { zmk,matrix_transform = &five_column_transform; };
 
     behaviors {
         ht200: ht200 {
