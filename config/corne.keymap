@@ -60,15 +60,15 @@
             label = "HMT400";
         };
 
-        ht100: ht100 {
+        ht150: ht150 {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
 
-            label = "HT100";
+            label = "HT150";
         };
     };
 
@@ -162,7 +162,7 @@
             display-name = "Base";
             bindings = <
   &ht400 ESCAPE Q  &kp W              &kp E           &kp R              &kp T        &ht400 LC(Y) Y  &kp U              &kp I                    &kp O                   &kp P
-  &ht400 LGUI A    &ht200 LEFT_ALT S  &ht200 LCTRL D  &ht100 LSHIFT F    &kp G        &kp H           &ht100 RSHIFT J    &ht200 RCTRL K           &ht200 RIGHT_ALT L      &ht400 LGUI SQT
+  &ht400 LGUI A    &ht200 LEFT_ALT S  &ht200 LCTRL D  &ht150 LSHIFT F    &kp G        &kp H           &ht150 RSHIFT J    &ht200 RCTRL K           &ht200 RIGHT_ALT L      &ht400 LGUI SQT
   &ht400 LC(Z) Z   &ht400 LC(X) X     &ht400 LC(C) C  &ht400 LC(V) V     &kp B        &kp N           &kp M              &kp COMMA                &ht200 QUESTION PERIOD  &kp SLASH
                                       &kp TAB         &ht_layerhome 2 0  &kp SPACE    &kp RET         &ht_layerhome 1 1  &ht200 DELETE BACKSPACE
             >;
