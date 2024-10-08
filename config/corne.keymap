@@ -224,10 +224,10 @@
 
         D2R_6 {
             bindings = <
-  &ht400 ESCAPE F1    &kp N2              &kp N3           &kp N4                &kp T        &trans  &trans  &trans  &trans  &trans
-  &ht400 LEFT_GUI F1  &ht200 LEFT_ALT F2  &ht200 LCTRL F3  &ht400 LEFT_SHIFT F4  &kp C        &trans  &trans  &trans  &trans  &trans
-  &kp F5              &kp F6              &kp F7           &kp F8                &kp I        &trans  &trans  &trans  &trans  &trans
-                                          &trans           &trans                &kp LSHFT    &trans  &trans  &trans
+  &ht400 ESCAPE NUMBER_1  &kp N2              &kp N3           &kp N4                &kp T        &trans  &trans  &trans  &trans  &trans
+  &ht400 LEFT_GUI F1      &ht200 LEFT_ALT F2  &ht200 LCTRL F3  &ht400 LEFT_SHIFT F4  &kp C        &trans  &trans  &trans  &trans  &trans
+  &kp F5                  &kp F6              &kp F7           &kp F8                &kp I        &trans  &trans  &trans  &trans  &trans
+                                              &trans           &trans                &kp LSHFT    &trans  &trans  &trans
             >;
 
             label = "D2R_6";
