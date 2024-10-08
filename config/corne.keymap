@@ -222,15 +222,15 @@
             label = "Mouse_5";
         };
 
-        Layer_6 {
+        D2R_6 {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans    &trans  &trans  &trans
+  &ht400 ESCAPE F1    &kp N2              &kp N3           &kp N4                &kp T        &trans  &trans  &trans  &trans  &trans
+  &ht400 LEFT_GUI F1  &ht200 LEFT_ALT F2  &ht200 LCTRL F3  &ht400 LEFT_SHIFT F4  &kp C        &trans  &trans  &trans  &trans  &trans
+  &kp F5              &kp F6              &kp F7           &kp F8                &kp I        &trans  &trans  &trans  &trans  &trans
+                                          &trans           &trans                &kp LSHFT    &trans  &trans  &trans
             >;
 
-            label = "Layer_6";
+            label = "D2R_6";
         };
 
         FPS_7 {
