@@ -153,6 +153,11 @@
             bindings = <&kp DOWN>;
             key-positions = <13 22>;
         };
+
+        CapsLck {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <16 13>;
+        };
     };
 
     keymap {
