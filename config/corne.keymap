@@ -4,11 +4,12 @@
  * SPDX-License-Identifier: MIT
  */
 
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define AS(keycode) &as LS(keycode) keycode
 
@@ -174,7 +175,7 @@
   &ht400 ESCAPE Q  &kp W              &kp E           &kp R              &kp T        &ht400 LC(Y) Y  &kp U              &kp I                    &kp O                   &kp P
   &ht400 LGUI A    &ht200 LEFT_ALT S  &ht200 LCTRL D  &ht150 LSHIFT F    &kp G        &kp H           &ht150 RSHIFT J    &ht200 RCTRL K           &ht200 RIGHT_ALT L      &ht400 LGUI SQT
   &ht400 LC(Z) Z   &ht400 LC(X) X     &ht400 LC(C) C  &ht400 LC(V) V     &kp B        &kp N           &kp M              &kp COMMA                &ht200 QUESTION PERIOD  &kp SLASH
-                                      &kp TAB         &ht_layerhome 2 0  &kp SPACE    &kp RET         &ht_layerhome 1 1  &ht200 DELETE BACKSPACE
+                                      &kp TAB         &ht_layerhome 2 0  &kp SPACE    &kp RET         &ht_layerhome 1 0  &ht200 DELETE BACKSPACE
             >;
         };
 
