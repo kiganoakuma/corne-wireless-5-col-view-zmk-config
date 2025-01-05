@@ -181,7 +181,7 @@
 
         LTenKey_1 {
             bindings = <
-  &kp SEMICOLON       &kp N7  &kp N8  &kp N9  &ht200 MINUS PLUS        &trans  &trans  &trans  &trans  &trans
+  &ht400 ESCAPE SEMI  &kp N7  &kp N8  &kp N9  &ht200 MINUS PLUS        &trans  &trans  &trans  &trans  &trans
   &ht200 LC(V) LC(C)  &kp N4  &kp N5  &kp N6  &ht200 KP_DIVIDE STAR    &trans  &trans  &trans  &trans  &trans
   &kp EQUAL           &kp N1  &kp N2  &kp N3  &kp PERIOD               &trans  &trans  &trans  &trans  &trans
                               &kp N0  &trans  &ht400 TAB KP_ENTER      &trans  &trans  &trans
