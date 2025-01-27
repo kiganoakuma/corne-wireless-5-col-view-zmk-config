@@ -212,10 +212,10 @@
 
         Num_Arrows {
             bindings = <
-  &kp N1     &kp N7  &kp N8  &kp N9  &kp MINUS    &kp N6  &kp N7                   &kp N8             &kp N9                 &kp N0
-  &kp GRAVE  &kp N4  &kp N5  &kp N6  &trans       &trans  &ht200 RIGHT_SHIFT SEMI  &ht200 RCTRL LBKT  &ht200 RIGHT_ALT RBKT  &ht200 RIGHT_GUI BSLH
-  &trans     &kp N1  &kp N2  &kp N3  &trans       &trans  &trans                   &trans             &trans                 &trans
-                     &trans  &trans  &trans       &trans  &trans                   &trans
+  &ht400 ESCAPE SEMI  &kp N7  &kp N8  &kp N9  &ht200 MINUS PLUS        &kp PAGE_UP    &kp HOME         &kp UP_ARROW       &kp END    &trans
+  &ht200 LC(V) LC(C)  &kp N4  &kp N5  &kp N6  &ht200 KP_DIVIDE STAR    &kp PAGE_DOWN  &kp LEFT         &kp DOWN           &kp RIGHT  &trans
+  &kp EQUAL           &kp N1  &kp N2  &kp N3  &kp PERIOD               &trans         &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RALT   &kp RGUI
+                              &kp N0  &trans  &ht400 TAB KP_ENTER      &trans         &trans           &trans
             >;
 
             label = "Num_Arrows";
