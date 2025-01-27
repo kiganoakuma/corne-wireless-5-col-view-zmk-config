@@ -210,15 +210,15 @@
             label = "Function_3";
         };
 
-        NumPunc_4 {
+        Num_Arrows {
             bindings = <
-  &kp N1     &kp N2                &kp N3              &kp N4                   &kp N5    &kp N6  &kp N7                   &kp N8             &kp N9                 &kp N0
-  &kp GRAVE  &ht200 LEFT_ALT APOS  &ht200 LCTRL MINUS  &ht200 LEFT_SHIFT EQUAL  &trans    &trans  &ht200 RIGHT_SHIFT SEMI  &ht200 RCTRL LBKT  &ht200 RIGHT_ALT RBKT  &ht200 RIGHT_GUI BSLH
-  &trans     &trans                &trans              &trans                   &trans    &trans  &trans                   &trans             &trans                 &trans
-                                   &trans              &trans                   &trans    &trans  &trans                   &trans
+  &kp N1     &kp N7  &kp N8  &kp N9  &kp MINUS    &kp N6  &kp N7                   &kp N8             &kp N9                 &kp N0
+  &kp GRAVE  &kp N4  &kp N5  &kp N6  &trans       &trans  &ht200 RIGHT_SHIFT SEMI  &ht200 RCTRL LBKT  &ht200 RIGHT_ALT RBKT  &ht200 RIGHT_GUI BSLH
+  &trans     &kp N1  &kp N2  &kp N3  &trans       &trans  &trans                   &trans             &trans                 &trans
+                     &trans  &trans  &trans       &trans  &trans                   &trans
             >;
 
-            label = "NumPunc_4";
+            label = "Num_Arrows";
         };
 
         Mouse_5 {
