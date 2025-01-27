@@ -210,7 +210,7 @@
             label = "Function_3";
         };
 
-        Num_Arrows {
+        Num_Arrows_4 {
             bindings = <
   &ht400 ESCAPE SEMI  &kp N7  &kp N8  &kp N9  &ht200 MINUS PLUS        &kp PAGE_UP    &kp HOME         &kp UP_ARROW       &kp END    &trans
   &ht200 LC(V) LC(C)  &kp N4  &kp N5  &kp N6  &ht200 KP_DIVIDE STAR    &kp PAGE_DOWN  &kp LEFT         &kp DOWN           &kp RIGHT  &trans
@@ -218,7 +218,7 @@
                               &kp N0  &trans  &ht400 TAB KP_ENTER      &trans         &trans           &trans
             >;
 
-            label = "Num_Arrows";
+            label = "Num_Arrows_4";
         };
 
         Mouse_5 {
