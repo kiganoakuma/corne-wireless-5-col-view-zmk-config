@@ -20,7 +20,6 @@
             bindings = <&kp ENTER>;
             key-positions = <17 18>;
             timeout-ms = <200>;
-            layers = <0 1 2>;
             require-prior-idle-ms = <100>;
         };
 
@@ -28,7 +27,6 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <28 27>;
             timeout-ms = <400>;
-            layers = <0 1 2>;
             require-prior-idle-ms = <100>;
         };
 
@@ -45,15 +43,13 @@
             key-positions = <3 6>;
             timeout-ms = <400>;
             require-prior-idle-ms = <100>;
-            layers = <0 2 1>;
         };
 
         underscore {
-            bindings = <&kp UNDER>;
+            bindings = <&kp LS(MINUS)>;
             key-positions = <40 45 26 23>;
             timeout-ms = <400>;
             require-prior-idle-ms = <100>;
-            layers = <0 2 1>;
         };
 
         esc {
@@ -61,7 +57,6 @@
             key-positions = <16 17>;
             timeout-ms = <50>;
             require-prior-idle-ms = <100>;
-            layers = <0 1 2>;
         };
 
         dblquotes {
@@ -134,10 +129,10 @@
         Base {
             display-name = "Base";
             bindings = <
-  &kp Q                &kp W            &kp E            &kp R         &kp T    &kp Y  &kp U               &kp I             &kp O             &kp P
-  &hml LEFT_CONTROL A  &hmr LEFT_GUI S  &hml LEFT_ALT D  &hml LSHFT F  &kp G    &kp H  &hmr RIGHT_SHIFT J  &hml RIGHT_ALT K  &hmr RIGHT_GUI L  &hmr RIGHT_CONTROL SQT
-  &kp Z                &kp X            &kp C            &kp V         &kp B    &kp N  &kp M               &kp COMMA         &kp PERIOD        &kp SLASH
-                                        &kp TAB          &kp GRAVE     &mo 1    &mo 2  &kp SPACE           &kp BACKSPACE
+  &kp Q                &kp W              &kp E            &kp R        &kp T    &kp Y  &kp U        &kp I             &kp O         &kp P
+  &hml LEFT_CONTROL A  &hmr LEFT_SHIFT S  &hml LEFT_ALT D  &hml LGUI F  &kp G    &kp H  &hmr RGUI J  &hml RIGHT_ALT K  &hmr RSHFT L  &hmr RIGHT_CONTROL SQT
+  &kp Z                &kp X              &kp C            &kp V        &kp B    &kp N  &kp M        &kp COMMA         &kp PERIOD    &kp SLASH
+                                          &kp TAB          &kp GRAVE    &mo 1    &mo 2  &kp SPACE    &kp BACKSPACE
             >;
         };
 
